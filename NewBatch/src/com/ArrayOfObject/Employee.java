@@ -1,4 +1,4 @@
-package com.Array;
+package com.ArrayOfObject;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ class Employee1{
 	int id;
 	String name;
 	 int salary;
-	 int a;
+	
 	
 	Employee1(int id,String name,int salary){
 		this.id=id;
@@ -27,7 +27,7 @@ public class Employee {
 
 	public static void main(String[] args) {
 		
-		Employee1 stud[]=new Employee1 [2];
+		Employee1 stud[]=new Employee1 [1];
 		
 		Scanner can=new Scanner(System.in);
 		for(int i=0;i<stud.length;i++){
@@ -42,14 +42,16 @@ public class Employee {
 			
 			stud[i]=new Employee1(id,name,salary);
 		}
-	for(Employee1 s:stud){
 		
 		
-		if(s.salary>=50000){
-			System.out.println(s);
-			}
+		for(Employee1 s:stud){
+			
+			
+			//	if(s.salary>=50000){
+					System.out.println(s);
+					}
 		}
 
-	}
+	//}
 
 }

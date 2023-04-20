@@ -26,7 +26,7 @@ public class DuplicateElement {                                         //1 3 4 
 						count++;
 					}
 				}
-				if(count>1)
+				if(count==2)
 				System.out.print(arr[i]+" ");
 			}
 			
