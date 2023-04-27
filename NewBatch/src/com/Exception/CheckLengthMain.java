@@ -1,4 +1,4 @@
-package com.ExceptionPro;
+package com.Exception;
 
 class vicky extends Throwable {
 	vicky() {

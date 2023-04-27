@@ -1,4 +1,4 @@
-package com.ExceptionPro;
+package com.Exception;
 /*
  * public class InvalidData extends RuntimeException {
  * 

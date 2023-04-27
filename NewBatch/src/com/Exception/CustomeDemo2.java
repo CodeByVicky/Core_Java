@@ -1,4 +1,4 @@
-package com.ExceptionPro;
+package com.Exception;
 
 public class CustomeDemo2 {
 	public static void checkName(String s) {

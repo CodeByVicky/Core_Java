@@ -1,13 +1,12 @@
-package com.ExceptionPro;
+package com.Exception;
 
-
-
-public class ComplieTimeDemo {
+public class DemoTryCatch {
 
 	public static void main(String[] args) {
 		
 		try {
-			Class.forName("com.mysqul.jdbc.Drive");//chaek exception
+		int i=2/2;
+		
 		}
 		catch(Exception e) {
 			System.out.println(e);

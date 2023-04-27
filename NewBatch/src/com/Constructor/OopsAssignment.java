@@ -84,7 +84,7 @@ public class OopsAssignment {
 		 * National game of India is Hockey, China is Table Tennis, Bangladesh
 		 * is Kabaddi, Italy is Football, United States is baseball. Write a
 		 * Java program to read country name as user-input and to print the
-		 * country’s national game. Use switch
+		 * countryï¿½s national game. Use switch
 		 */
 		
 		System.out.println("Enter country name");
