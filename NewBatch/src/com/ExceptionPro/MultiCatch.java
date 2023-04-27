@@ -1,4 +1,6 @@
-package com.Exception;
+package com.ExceptionPro;
+
+
 
 public class MultiCatch {
 
@@ -23,9 +25,7 @@ public class MultiCatch {
 			System.out.println(a);
 		}
 		
-		catch(Exception e) {
-			System.out.println(e);
-		}
+		
 		System.out.println("thank you");
 	}
 

@@ -29,6 +29,7 @@ public class UniqueElements {
 	}
 
 	public static void main(String[] args) {
+		
 		int arr[]={1, 2, 3, 5, 1, 5, 20, 2, 12, 10};
 		
 		UniqueElements uni=new UniqueElements();

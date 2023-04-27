@@ -1,4 +1,4 @@
-package com.Exception;
+package com.ExceptionPro;
 
 public class TryAndFinally {
 

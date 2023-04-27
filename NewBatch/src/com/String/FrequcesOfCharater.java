@@ -3,23 +3,16 @@ package com.String;
 public class FrequcesOfCharater {
 	
 	public static void frequces(String s) {
-		
-		
-		char arr[] = s.toCharArray();  
-        
-	
-		/*
-		 * for(int i=0;i<arr.length;i++) { System.out.print(arr[i]);
-		 * 
-		 * }
-		 */
-	
+			
+	char arr[] = s.toCharArray();  
+   	
 	for(int i=0;i<arr.length;i++) {
 		boolean find=false;
 		int count=1;
 		
 		for(int j=i-1;j>=0;j--) {
 			if(arr[i] ==arr[j]) {
+				
 				find=true;
 				break;
 			}
@@ -27,8 +20,11 @@ public class FrequcesOfCharater {
 		
 		if(find ==false) {
 			for(int k=i+1;k<arr.length;k++) {
-				if(arr[i]==arr[k])
+				if(arr[i]==arr[k]) {
+					if(arr[i]==' ')
 				count++;
+				
+				}
 			}
 			System.out.println(arr[i]+"--->"+count);
 		}
@@ -40,8 +36,7 @@ public class FrequcesOfCharater {
 		
 		String s=("c programming language");
 		FrequcesOfCharater.frequces(s);
-	
-	
+
 	}
 
 }
