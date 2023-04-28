@@ -1,7 +1,7 @@
 package com.Exception;
 
 public class CustomeDemo2 {
-	public static void checkName(String s) {
+	public static void checkName(String s) throws Exception {
 		boolean isdigitpresent =false;
 		for(int i=0;i<s.length();i++) {
 			if(Character.isDigit(s.charAt(i))) {
@@ -11,7 +11,7 @@ public class CustomeDemo2 {
 		}
 		
 		if(isdigitpresent == true) {
-			throw new InvalidData("name invalid");
+			throw new Exception("name invalid");
 		}
 		else 
 			System.out.println(s);
@@ -23,7 +23,7 @@ public class CustomeDemo2 {
 		try {
 			checkName("ne3ha");
 		}
-		catch(InvalidData i){
+		catch(Exception i){
 			System.out.println(i);
 		}
 	}
