@@ -6,6 +6,7 @@ public class Frequency {
 		for (int i = 0; i < arr.length; i++) {
 			boolean visited = false;
 			int count = 1;
+			int x=1;
 			for (int j = i - 1; j >= 0; j--) {
 				if (arr[i] == arr[j]) {
 					visited = true;
@@ -16,8 +17,12 @@ public class Frequency {
 				for (int k = i + 1; k < arr.length; k++) {
 					if (arr[i] == arr[k])
 						count++;
+					if(count==x) {
+						x++;
+					System.out.println(arr[i] + " =======>" + count);
+					}
 				}
-				System.out.println(arr[i] + " =======>" + count);
+				
 			}
 		}
 

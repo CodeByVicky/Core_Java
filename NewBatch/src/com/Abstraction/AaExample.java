@@ -1,4 +1,7 @@
 package com.Abstraction;
+abstract class Crcket{
+	abstract void rule();
+}
 abstract class BCCI{
 	
 	int a=8;
@@ -15,6 +18,16 @@ abstract class BCCI{
 	void show(){
 		 System.out.println("NO");
 	 }
+}
+
+class IPL extends BCCI{
+
+	@Override
+	void rules() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
 public class AaExample extends BCCI {
 	

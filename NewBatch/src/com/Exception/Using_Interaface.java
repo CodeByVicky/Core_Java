@@ -1,32 +1,20 @@
 package com.Exception;
 
-public class Using_Interaface implements Addble{
+public class Using_Interaface implements MyInterface {
 
-	@Override
-	public void NewEception() {
-		
-		System.out.println("interface Exception");
-	}
-	
-	public void show() throws Exception{
-		
-		if(3>9) {
-			throw new Exception();
-		}
-		
+	public void show() throws Exception {
+		System.out.println("this my exception");
 	}
 
-	public static void main(String[] args) throws Exception{
-		Using_Interaface us=new Using_Interaface();
+	public static void main(String[] args) {
 		
 		try {
-			us.show();
+			new Using_Interaface().show();
 		}
 		catch(Exception e) {
 			System.out.println(e);
 		}
-System.out.println("thanks");
-	}
 
+	}
 
 }

@@ -1,6 +1,6 @@
 package com.Exception;
 
-public interface Addble  {
+interface MyInterface {
 
-	public void NewEception();
+	public void show() throws Exception;
 }

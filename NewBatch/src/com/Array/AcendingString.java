@@ -14,11 +14,17 @@ public class AcendingString {
 					arr[j]=temp;
 				}
 			}
+			System.out.println(arr[i]);
 	  }
-		System.out.println(Arrays.toString(arr));
+		
 	}
+	
+	
+	
+	
+	
 	public static void main(String[] args) {
-		String arr[]={"mahesh","ganesh","rupesh","hitesh"};
+		String arr[]={"mahesh","ganesh","rupesh","hitesh","hitesh"};
 
 		show(arr);
 	}
