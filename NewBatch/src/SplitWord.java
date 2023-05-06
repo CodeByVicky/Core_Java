@@ -2,7 +2,7 @@
 public class SplitWord {
 
 	public static void main(String[] args) {
-		String s="india is my country and india id ";
+		String s="india is my country and india is best country ";
 		
 		String[] arr=s.split(" ");
 		
@@ -29,7 +29,7 @@ public class SplitWord {
 					}
 				}
 				
-				if(count==2) {
+				if(count>1) {
 					System.out.print(arr[i]+" ");
 				}
 			}

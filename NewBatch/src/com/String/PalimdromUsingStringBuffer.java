@@ -4,21 +4,23 @@ public class PalimdromUsingStringBuffer {
 
 	public static void main(String[] args) {
 
-		String str = ("OTTO");
-		
-		StringBuffer sb = new StringBuffer(str);
-		System.out.println(sb);
-		System.out.println(sb.reverse());
-		
-		sb.reverse();
+		String str = ("NAMAN");
 
-		String rev = sb.toString();
-		
+		String find = "";
 
-		if (rev.equals(str)){
-			System.out.println("p");
-		} else
-			System.out.println("n");
+		while (str != "") {
+
+			for (int i = str.length() - 1; i >= 0; i--) {
+
+				find = find + str.charAt(i);
+			}
+		}
+
+		if (find.equals(str))
+			System.out.println("Palindrome");
+
+		else
+			System.out.println("Not Palindrome");
 
 	}
 
