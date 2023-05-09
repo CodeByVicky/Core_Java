@@ -1,4 +1,4 @@
-package com.HashMaping;
+package com.HashMap_Object;
 
 import java.util.*;
 

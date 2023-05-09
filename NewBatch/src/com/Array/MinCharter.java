@@ -23,6 +23,7 @@ public class MinCharter {
 	
 		int arr[]={'A', 'D', 'E', 'X', 'z', 'R'};
 		
+		
 		MinCharter small=new MinCharter(arr);
 		
 	}

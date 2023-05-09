@@ -21,12 +21,11 @@ public class Alternate_Add_ArrayList {
 
 		int h = 0;
 		int l = 0;
-		
-		int a=list1.size()-list2.size();
+
+		int a = list1.size() - list2.size();
 
 		System.out.println(a);
-		
-		
+
 		ArrayList<Integer> list = new ArrayList<>();
 
 		if (list1.size() == list2.size()) {
@@ -43,25 +42,34 @@ public class Alternate_Add_ArrayList {
 
 			}
 		}
-		
-		
+
 		else if (list1.size() > list2.size()) {
 
 			for (int i = 0; i < list1.size(); i++) {
 
-				if (i==list1.size()-a) {
-					for (int j = 0; j < list1.size()-list2.size(); j++) {
-						
+				if (i == list1.size() - a) {
+					for (int j = 0; j < list1.size() - list2.size(); j++) {
+
 						list.add(list1.get(h));
-						
+
 						h++;
-						
+
 					}
-					
-				} else {
+
+				} else if (i < list1.size() - a) {
+
+					for (int j = 0; j < list1.size() - list2.size(); j++) {
+
+						list.add(list1.get(h));
+
+						h++;
+
+					}
+				}
+
+				else {
 
 					list.add(list1.get(h));
-					
 
 					h++;
 
