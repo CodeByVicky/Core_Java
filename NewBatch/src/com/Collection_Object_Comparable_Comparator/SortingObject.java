@@ -1,4 +1,4 @@
-package com.Collection_Object;
+package com.Collection_Object_Comparable_Comparator;
 import java.util.*;
 import java.util.Collection;
 

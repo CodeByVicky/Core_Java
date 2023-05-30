@@ -28,7 +28,7 @@ public class DublicateNumber {
 				}
 
 				if (count ==1) {
-					//System.out.println(list.get(i));
+				
 					list2.add(list.get(i));
 				}
 			}

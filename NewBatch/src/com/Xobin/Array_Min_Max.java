@@ -7,8 +7,9 @@ public class Array_Min_Max {
 	public static void main(String[] args) {
 
 		Scanner can = new Scanner(System.in);
-		System.out.println("enter size");
-		int arr[] = new int[can.nextInt()];
+		
+		int arr[] = new int[5];
+		System.out.println("enter elements");
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = can.nextInt();
 		}

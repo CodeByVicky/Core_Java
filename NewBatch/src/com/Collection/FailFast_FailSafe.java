@@ -17,8 +17,8 @@ public class FailFast_FailSafe {
 		while(itr.hasNext()) {
 			String s=itr.next();
 			if(s.equals("goa")) {
-				//list.remove(s);//fail-fast
-				itr.remove();    //fail.safe
+				list.remove(s);//fail-fast
+				//itr.remove();    //fail.safe
 			}
 		}
 		System.out.println(itr.next());
