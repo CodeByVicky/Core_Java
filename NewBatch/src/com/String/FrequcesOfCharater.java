@@ -21,7 +21,7 @@ public class FrequcesOfCharater {
 		if(find ==false) {
 			for(int k=i+1;k<arr.length;k++) {
 				if(arr[i]==arr[k]) {
-					if(arr[i]==' ')
+				//	if(arr[i]==' ')
 				count++;
 				
 				}
