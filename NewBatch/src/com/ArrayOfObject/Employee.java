@@ -20,6 +20,7 @@ class Employee1{
 		return id+" "+name+" "+salary;
 		
 	}
+	
 
 }
 public class Employee {
