@@ -53,13 +53,13 @@ public class StudentUsingSetterGetter {
 			 * arr[i].setName(name);
 			 */
 		}
-		/*
-		 * for (int i = 0; i < arr.length; i++) {
-		 * System.out.println(arr[i].getId()+" "+arr[i].getName()); }
-		 */
-		for(StudentUsingSetterGetter rt:arr) {
-			System.out.println(rt);
-		}
+		
+		 for (int i = 0; i < arr.length; i++) {
+		  System.out.println(arr[i].getId()+" "+arr[i].getName()); }
+		 
+//		for(StudentUsingSetterGetter rt:arr) {
+//			System.out.println(rt);
+//		}
 	}
 
 }
